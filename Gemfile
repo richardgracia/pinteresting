@@ -1,5 +1,7 @@
 source 'https://rubygems.org'
 
+
+
 gem 'rails', '4.1.8' 
 gem 'sass-rails', '~> 4.0.3'
 gem 'uglifier', '>= 1.3.0'
@@ -13,13 +15,11 @@ group :development, :test do
 	gem 'sqlite3'
 end
 
-group :production do
+group :prodcution do
 	gem 'pg'
 	gem 'rails_12factor'
 end
 
-group :doc do
-	gem 'sdoc', '~> 0.4.0',         
-end
+gem 'sdoc', '~> 0.4.0',          group: :doc
 
-gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw]
+gem 'tzinfo-data', platforms: [:mingw, :mswin]
