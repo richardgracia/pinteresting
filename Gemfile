@@ -22,4 +22,4 @@ group :doc do
 	gem 'sdoc', '~> 0.4.0',         
 end
 
-gem 'tzinfo-data', platforms: [:mingw, :mswin]
+gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw]
