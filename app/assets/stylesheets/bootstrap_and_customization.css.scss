@@ -8,6 +8,7 @@ $navbar-default-brand-color: 	#c0392b;
 $brand-primary: 				#c0392b;
 $jumbotron-bg: 					white;
 
+// "bootstrap-sprockets" must be imported before "bootstrap" and "bootstrap/variables"
 @import "bootstrap-sprockets";
 @import 'bootstrap';
 
